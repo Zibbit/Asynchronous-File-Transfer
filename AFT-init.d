@@ -6,8 +6,6 @@
 # Required-Stop:     $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: Start AFT server daemon at boot time
-# Description:       Enable AFT server daemon to run automatically on system startup.
 ### END INIT INFO
 
 DAEMON="/opt/jhbuild/build/evd/sbin/AFT"
